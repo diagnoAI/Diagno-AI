@@ -8,9 +8,15 @@ function SignIn() {
   const onSubmit =  (e)=>{
       e.preventDefault()
       const data = {
-        email,
-        pass
+        body:{
+          email,
+          pass
+        }
       }
+
+      const st = JSON.stringify(data)
+      console.log(st)
+      const res = fetch("https://127.0.0.1:5000/api/login")
   }
 
   return(

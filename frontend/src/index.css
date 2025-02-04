@@ -24,6 +24,11 @@ ul{
 }
 ul a li{
     list-style-type: none;
+    transition: 0.1s;
+}
+ul a li:hover{
+    transform: scale(1.1);
+    
 }
 ul a{
     text-decoration: none;
@@ -67,6 +72,21 @@ ul a{
   text-align: center;
   width: 180px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.feature:hover {
+    animation-name: fspin;
+}
+@keyframes fspin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .feature:hover {
