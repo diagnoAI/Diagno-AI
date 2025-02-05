@@ -3,8 +3,10 @@ import { Outlet } from 'react-router-dom'
 function MasterLayout() {
   return(
     <div>
-      <Nav/>
-      <Outlet/>
+      <div className='oc'>
+        <Nav/>
+        <Outlet/>
+      </div>
     </div>
   )
 }

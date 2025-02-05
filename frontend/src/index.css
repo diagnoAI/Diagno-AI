@@ -4,13 +4,13 @@
   font-family: Arial, sans-serif;
 }
 body{
-   
+    
 }
 .logo{
     margin-left: 10px;
 }
 .navbar{
-    background: #3c8d9e;
+    /* background: #3c8d9e; */
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,8 @@ ul a{
 }
 .container{
     height: 500px;
-    background: #d0e8f7;
+    /* background: url(assets/backkidney.jpg); */
+    background-size: cover;
     text-align: center;
     padding: 30px;
     padding-top: 200px;
@@ -72,7 +73,8 @@ ul a{
   text-align: center;
   width: 180px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation-duration: 0.5s;
+  animation-duration: 0.2s;
+  
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -103,7 +105,8 @@ ul a{
 
 /* signin */
 .form{
-   background-color: #f0f8ff;
+   /* background-color: #f0f8ff; */
+   
    color: #4682b4;
    min-height: 100vh;
    width: 100%;
@@ -114,7 +117,12 @@ ul a{
 }
 
 .f-con{
-   background-color: lightblue;
+   /* background-color: lightblue; */
+   border: 1px solid white;
+   /* background: rgba(0, 0, 0, 0.5); */
+   background-color: rgba(7, 31, 77, 0.3);
+   backdrop-filter: blur(10px);
+   box-shadow: 0px 0px 5px 2px white;
    margin: 80px 0px;
    width: 300px;
    height: 60%;
@@ -128,10 +136,10 @@ ul a{
 }
 label{
    display: block;
-   color:black;
+   color:rgb(255, 255, 255);
    margin-top: 50px;
-   font-weight: 300;
-   margin-bottom: 10px;
+   font-weight: 100;
+margin-bottom: 10px;
 }
 input{
    height: 40px;   
@@ -165,4 +173,8 @@ p{
 p a{
    text-decoration: none;
    color: black;   
+}
+.oc{
+    background: url(assets/backkidney.jpg);
+    background-size: cover;
 }

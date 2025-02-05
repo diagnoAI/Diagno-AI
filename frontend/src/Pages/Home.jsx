@@ -6,7 +6,7 @@ function Home() {
         <p>Using advanced algorithms, our app provides quick and accurate kidney stone detection so you can take timely action and prevent further complications.</p>
         <a href="#upload form" className="cta-button">Book An Appoinment</a>
       </div>
-      {/* <div className="features">
+      <div className="features">
         <div className="feature">
           <h3>Fast Results</h3>
           <p>Get results within minutes and take action promptly.</p>
@@ -19,7 +19,7 @@ function Home() {
           <h3>Accurate Detection</h3>
           <p>Advanced technology ensures reliable detection.</p>
         </div>
-      </div> */}
+      </div>
     </>
   )
 }
