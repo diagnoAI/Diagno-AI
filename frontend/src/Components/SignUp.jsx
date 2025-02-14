@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react"; 
+import "D:\\New folder\\Diagno AI\\frontend\\src\\styles\\SignUp.css";
 
 function SignUp() {
   const [fullname, setFullname] = useState("");
@@ -53,11 +54,12 @@ function SignUp() {
 
   return (
     <div className="form-container">
+      <form onSubmit={onSubmit} className="form1">
       <h2>Sign Up</h2>
-      <form onSubmit={onSubmit}>
         <div className="input">
-          <label htmlFor="fullname">Full Name:</label>
+          <label htmlFor="fullname" className="label2">Full Name:</label>
           <input
+          className="input2"
             type="text"
             id="fullname"
             name="fullname"
@@ -68,8 +70,9 @@ function SignUp() {
         </div>
 
         <div className="input">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email" className="label2">Email:</label>
           <input
+          className="input2"
             type="email"
             id="email"
             name="email"
@@ -79,9 +82,10 @@ function SignUp() {
           />
         </div>
 
-        <div className="input">
-          <label htmlFor="password">Password:</label>
+        <div className="input" >
+          <label htmlFor="password" className="label2">Password:</label>
           <input
+            className="input2"
             type="password"
             id="password"
             name="password"
@@ -92,8 +96,9 @@ function SignUp() {
         </div>
 
         <div className="input">
-          <label htmlFor="confirm-password">Confirm Password:</label>
+          <label htmlFor="confirm-password" className="label2">Confirm Password:</label>
           <input
+            className="input2"
             type="password"
             id="confirm-password"
             name="c_password"
@@ -105,18 +110,18 @@ function SignUp() {
         </div>
 
         <div className="check">
-          <label htmlFor="terms">
+          <label htmlFor="terms" className="label21">
             <input type="checkbox" id="terms" name="terms" required /> I agree
-            to the <a href="#">Terms and Conditions</a>
+            to the <a href="#" id="a21">Terms and Conditions</a>
           </label>
         </div>
 
-        {error && <p style={{ color: "red" }}>{error}</p>}
-        {success && <p style={{ color: "green" }}>{success}</p>}
+        {error && <p style={{ color: "red",fontsize: "4px",marginTop:"10px",fontWeight:"100"}}>{error}</p>}
+        {success && <p style={{ color: "green" }} >{success}</p>}
 
-        <button type="submit">Sign Up</button>
-        <p>
-          Already have an account? <NavLink to="/login">Login</NavLink>
+        <button type="submit" className="btn1">Sign Up</button>
+        <p id="p2">
+          Already have an account? <NavLink to="/login" id="a2">Login</NavLink>
         </p>
       </form>
     </div>

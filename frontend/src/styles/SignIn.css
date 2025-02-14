@@ -1,0 +1,72 @@
+/* signin */
+.form{
+    /* background-color: #f0f8ff; */
+    
+    color: #4682b4;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+   
+ }
+ 
+ .f-con{
+    /* background-color: lightblue; */
+    border: 1px solid white;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(7, 31, 77, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px 2px white;
+    margin: 80px 0px;
+    width: 300px;
+    height: 60%;
+    padding: 40px;
+    border-radius: 15px;
+ }
+ .f-con h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+ }
+ #label1{
+    display: block;
+    color:rgb(255, 255, 255);
+    margin-top: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+ }
+ .input1{
+    height: 30px;   
+    width: 100%;
+    text-align: center;
+    outline: none;
+    
+ }
+ .btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: #5dade2;
+    font-size: 14px;
+    font-weight: 400;
+    transition-duration: 0.2s;
+    cursor: pointer;
+ }
+ .btn:hover{
+    box-shadow: 0px 0px 5px 2px white;
+    transform: scale(0.9);
+ }
+ #p1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 250;
+    font-size: 14px;
+ }
+ #p1 #a1{
+    text-decoration: none;
+    color: white;   
+ }

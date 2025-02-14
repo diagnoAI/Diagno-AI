@@ -1,16 +1,18 @@
 import { NavLink } from 'react-router-dom';
+import 'D:\\New folder\\Diagno AI\\frontend\\src\\styles\\Nav.css';
+
 function Nav() {
-  return(
+  return (
     <div className="navbar">
-      <h2 className = "logo">Diagno.Ai</h2>
+      <h2 className="logo">Diagno.Ai</h2>
       <ul>
-        <NavLink to = "/"><li>Home</li></NavLink>
-        <NavLink to = "/about"><li>About Us</li></NavLink>
-        <NavLink to = "/contact"><li>Contact Us</li></NavLink>
-        <NavLink to = "/Login"><li>Login</li></NavLink>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/about">About Us</NavLink></li>
+        <li><NavLink to="/contact">Contact Us</NavLink></li>
+        <li><NavLink to="/login">Login</NavLink></li>
       </ul>
     </div>
-  )
+  );
 }
 
-export default Nav
+export default Nav;

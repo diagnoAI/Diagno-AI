@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
+import "D:\\New folder\\Diagno AI\\frontend\\src\\styles\\SignIn.css"
 
 function SignIn() {
     const [email, setEmail] = useState("");
@@ -39,8 +40,9 @@ function SignIn() {
         <div className="form">
             <form className="f-con" method="POST" onSubmit={onSubmit}>
                 <h2>Log-in</h2>
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email" id="label1">Email:</label>
                 <input 
+                className="input1"
                   type="text"
                   id="email"
                   name="username" 
@@ -48,8 +50,9 @@ function SignIn() {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <br />
-                <label htmlFor="password">Password:</label>
+                <label htmlFor="password" id="label1">Password:</label>
                 <input 
+                 className="input1"
                   type="password"
                   id="password"
                   name="password" 
@@ -62,8 +65,8 @@ function SignIn() {
                   value="Submit"
                   className="btn" 
                 />
-                <p>
-                    <NavLink to = "#">Forgot Password?</NavLink> | New user? <NavLink to = "/signup">Sign Up</NavLink>
+                <p id="p1">
+                    <NavLink to = "#" id="a1">Forgot Password?</NavLink> | New user? <NavLink to = "/signup" id="a1">Sign Up</NavLink>
                 </p>
             </form>
         </div>
