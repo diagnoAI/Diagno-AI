@@ -114,6 +114,7 @@ ul a{
    align-items: center;
    justify-content: center;
    font-size: 1.1rem;
+  
 }
 
 .f-con{
@@ -172,9 +173,10 @@ p{
 }
 p a{
    text-decoration: none;
-   color: black;   
+   color: white;   
 }
 .oc{
-    background: url(assets/backkidney.jpg);
+    background: url(assets/ba.jpeg);
     background-size: cover;
+    /* height: 150vh; */
 }
