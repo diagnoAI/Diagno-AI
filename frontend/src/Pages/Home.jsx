@@ -1,3 +1,6 @@
+import React from 'react'
+import "D:\\New folder\\Diagno AI\\frontend\\src\\styles\\Home.css";
+
 function Home() {
   return(
     <>

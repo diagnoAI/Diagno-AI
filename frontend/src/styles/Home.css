@@ -1,0 +1,121 @@
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    /* background: url(assets/backkidney.jpg); */
+    background-size: cover;
+    /* text-align: center; */
+    /* padding: 30px; */
+    /* padding-top: 200px; */
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+    margin-top: 220px;
+    color: white;
+    /* position: relative; */
+}
+.cta-button{
+    background: #3c8d9e;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.5s linear;
+}
+.cta-button:hover{
+    background: #5dade2;
+    transform: scale(1.1);
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  gap:10px;
+  margin: 50px 0px;
+  
+}
+/* #middle{
+    position: absolute;
+    padding-bottom: 60px;
+}
+#middle:hover{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+/* @keyframes spin {
+    0%{
+        background-color: yellow;
+        transform: rotate(0deg);
+        
+    }
+    25%{
+        top: 700px;
+        right: 100px;
+        transform: rotate(360deg);
+    }
+    50%{
+        top: 500px;
+        
+        transform: rotate(360deg);
+    }
+    75%{
+        top: 300px;
+        transform: rotate(360deg);
+    }
+    100%{
+        background-color: green;
+        transform: rotate(360deg);
+    }
+} */
+.feature {
+  /* position: absolute; */
+  background-color: #a7e2f3;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation-duration: 0.2s;
+  
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  height: 120px;
+}
+
+.feature:hover {
+    animation-name: fspin;
+}
+@keyframes fspin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.feature:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.feature h3{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.feature p{
+    color: #555;
+}
+
+
