@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"; 
 
 function SignUp() {
   const [fullname, setFullname] = useState("");
