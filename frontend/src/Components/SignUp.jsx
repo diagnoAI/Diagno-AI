@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react"; 
-import "D:\\New folder\\Diagno AI\\frontend\\src\\styles\\SignUp.css";
+import "../styles/SignUp.css";
 
 function SignUp() {
   const [fullname, setFullname] = useState("");

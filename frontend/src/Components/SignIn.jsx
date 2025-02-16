@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
-import "D:\\New folder\\Diagno AI\\frontend\\src\\styles\\SignIn.css"
+import "../styles/SignIn.css";
 
 function SignIn() {
     const [email, setEmail] = useState("");

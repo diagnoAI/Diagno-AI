@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import 'D:\\New folder\\Diagno AI\\frontend\\src\\styles\\Nav.css';
+import "../styles/Nav.css";
 
 function Nav() {
   return (
